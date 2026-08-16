@@ -1,6 +1,7 @@
 # Assistente de Planilha de Excel
 
-## Sobre o Projeto
+```
+  ## Sobre o Projeto
 
 O **Assistente de Planilha de Excel** foi desenvolvido para automatizar o preenchimento e a atualização de planilhas contendo informações de pessoas. Seu objetivo é manter uma planilha existente sempre atualizada, organizando corretamente os dados de **Nome**, **E-mail** e **Comentários**, além de aplicar formatações visuais que facilitam a identificação de alterações, informações ausentes e correções realizadas.
 
@@ -35,11 +36,11 @@ Sempre que forem enviados novos registros, eles deverão ser adicionados ao fina
 
 Exemplo de entrada:
 
-```
-Rogerio rogerio@gmail.com
-Mateus mateus@gmail.com
-Leandro leandro@gmail.com
-```
+
+ - Rogerio rogerio@gmail.com
+ - Mateus mateus@gmail.com
+ - Leandro leandro@gmail.com
+
 
 Resultado esperado:
 
@@ -57,9 +58,9 @@ Resultado esperado:
 
 Quando o usuário enviar apenas um nome, o e-mail deverá ser preenchido automaticamente com o texto:
 
-```
+
 -(email ausente)
-```
+
 
 Exemplo:
 
@@ -73,9 +74,9 @@ Exemplo:
 
 Quando o usuário enviar apenas um e-mail, o nome deverá ser preenchido automaticamente com:
 
-```
+
 -(nome ausente)
-```
+
 
 Exemplo:
 
@@ -122,29 +123,28 @@ Exemplo:
 
 Entrada:
 
-```
+
 teste@gail.com
-```
 
 Saída:
 
-```
+
 teste@gmail.com
-```
+
 
 Outro exemplo:
 
 Entrada:
 
-```
+
 usuario@gil.com
-```
+
 
 Saída:
 
-```
+
 usuario@gmail.com
-```
+
 
 Nunca deverá manter extensões incorretas quando claramente representarem um erro de escrita relacionado ao domínio Gmail.
 
@@ -173,7 +173,7 @@ A célula da coluna **Comentários** deverá possuir:
 
 - Fundo amarelo.
 
----
+
 
 # Domínios de E-mail Aceitos
 
@@ -219,3 +219,5 @@ Após concluir todas as alterações, o assistente deverá devolver ao usuário:
 O arquivo deverá ser exatamente o mesmo enviado pelo usuário, apenas modificado, sem recriar uma nova planilha do zero.
 
 ---
+
+```
